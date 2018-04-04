@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Solaris per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your ChiliCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi ChiliCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Solaris per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your ChiliCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi ChiliCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLR dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ChiliCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>ChiliCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLR dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Solaris che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a ChiliCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo ChiliCoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>L'indirizzo Solaris per firmare il messaggio con</translation>
+        <source>The ChiliCoin address to sign the message with</source>
+        <translation>L'indirizzo ChiliCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Solaris</translation>
+        <source>Sign the message to prove you own this ChiliCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ChiliCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>L'indirizzo Solaris con cui è stato firmato il messaggio</translation>
+        <source>The ChiliCoin address the message was signed with</source>
+        <translation>L'indirizzo ChiliCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Solaris specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ChiliCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ChiliCoin specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>ChiliCoin Core</source>
+        <translation>ChiliCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a Solaris address</source>
-        <translation>Invia monete all' indirizzo Solaris</translation>
+        <source>Send coins to a ChiliCoin address</source>
+        <translation>Invia monete all' indirizzo ChiliCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e solaris: URIs)</translation>
+        <source>Request payments (generates QR codes and chilicoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e chilicoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Solaris Core</source>
-        <translation>&amp;Informazioni Solaris Core</translation>
+        <source>&amp;About ChiliCoin Core</source>
+        <translation>&amp;Informazioni ChiliCoin Core</translation>
     </message>
     <message>
-        <source>Show information about Solaris Core</source>
-        <translation>Visualizza informazioni su Solaris Core</translation>
+        <source>Show information about ChiliCoin Core</source>
+        <translation>Visualizza informazioni su ChiliCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Solaris</source>
-        <translation>Modifica le opzioni di configurazione per Solaris</translation>
+        <source>Modify configuration options for ChiliCoin</source>
+        <translation>Modifica le opzioni di configurazione per ChiliCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your Solaris addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Solaris per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your ChiliCoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi ChiliCoin per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Solaris specifici</translation>
+        <source>Verify messages to ensure they were signed with specified ChiliCoin addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ChiliCoin specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Solaris: URI or payment request</source>
-        <translation>Apri un Solaris: URI o richiesta di pagamento</translation>
+        <source>Open a ChiliCoin: URI or payment request</source>
+        <translation>Apri un ChiliCoin: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Solaris Core help message to get a list with possible Solaris command-line options</source>
-        <translation>Mostra il messaggio di aiuto Solaris Core per ottenere un elenco con le possibili opzioni di riga di comando Solaris</translation>
+        <source>Show the ChiliCoin Core help message to get a list with possible ChiliCoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto ChiliCoin Core per ottenere un elenco con le possibili opzioni di riga di comando ChiliCoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (solaris.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chilicoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (chilicoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>ChiliCoin Core</source>
+        <translation>ChiliCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>ChiliCoin Core</source>
+        <translation>ChiliCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>L'indirizzo Solaris per firmare il messaggio con</translation>
+        <source>The ChiliCoin address to sign the message with</source>
+        <translation>L'indirizzo ChiliCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Solaris</translation>
+        <source>Sign the message to prove you own this ChiliCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ChiliCoin</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>L'indirizzo Solaris con cui è stato firmato il messaggio</translation>
+        <source>The ChiliCoin address the message was signed with</source>
+        <translation>L'indirizzo ChiliCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Solaris specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ChiliCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ChiliCoin specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>ChiliCoin Core</source>
+        <translation>ChiliCoin Core</translation>
     </message>
     </context>
 <context>
@@ -1314,7 +1314,7 @@ MultiSend: %1</translation>
     <name>ZXLRControlDialog</name>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>chilicoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

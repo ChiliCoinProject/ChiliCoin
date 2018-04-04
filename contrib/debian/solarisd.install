@@ -1,2 +1,2 @@
-usr/local/bin/solarisd usr/bin
-usr/local/bin/solaris-cli usr/bin
+usr/local/bin/chilicoind usr/bin
+usr/local/bin/chilicoin-cli usr/bin

@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Solaris jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ChiliCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ChiliCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>&amp;Rdzeń Solaris</translation>
+        <source>ChiliCoin Core</source>
+        <translation>&amp;Rdzeń ChiliCoin</translation>
     </message>
     <message>
-        <source>Send coins to a Solaris address</source>
-        <translation>Wyślij monety do adresu Solaris</translation>
+        <source>Send coins to a ChiliCoin address</source>
+        <translation>Wyślij monety do adresu ChiliCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i solaris:URI)</translation>
+        <source>Request payments (generates QR codes and chilicoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i chilicoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Solaris Core</source>
+        <source>&amp;About ChiliCoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Solaris Core</source>
+        <source>Show information about ChiliCoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Solaris</source>
-        <translation>Modyfikuj opcje konfiguracji Solaris</translation>
+        <source>Modify configuration options for ChiliCoin</source>
+        <translation>Modyfikuj opcje konfiguracji ChiliCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your Solaris addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Solaris, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your ChiliCoin addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami ChiliCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Solaris</translation>
+        <source>Verify messages to ensure they were signed with specified ChiliCoin addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ChiliCoin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Solaris: URI or payment request</source>
-        <translation>Otwórz Solaris: URI i żądanie zapłaty</translation>
+        <source>Open a ChiliCoin: URI or payment request</source>
+        <translation>Otwórz ChiliCoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Solaris Core help message to get a list with possible Solaris command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Solaris, aby dostać listę możliwych opcji Solaris command-line</translation>
+        <source>Show the ChiliCoin Core help message to get a list with possible ChiliCoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia ChiliCoin, aby dostać listę możliwych opcji ChiliCoin command-line</translation>
     </message>
     <message>
-        <source>Solaris Core client</source>
-        <translation>Rdzeń Solaris klient</translation>
+        <source>ChiliCoin Core client</source>
+        <translation>Rdzeń ChiliCoin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>&amp;Rdzeń Solaris</translation>
+        <source>ChiliCoin Core</source>
+        <translation>&amp;Rdzeń ChiliCoin</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>&amp;Rdzeń Solaris</translation>
+        <source>ChiliCoin Core</source>
+        <translation>&amp;Rdzeń ChiliCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Solaris after logging in to the system.</source>
-        <translation>Automatycznie uruchom Solaris po zalogowaniu do systemu</translation>
+        <source>Automatically start ChiliCoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom ChiliCoin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Solaris on system login</source>
-        <translation>&amp;Uruchom Solaris podczas logowania do systemu</translation>
+        <source>&amp;Start ChiliCoin on system login</source>
+        <translation>&amp;Uruchom ChiliCoin podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Solaris.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Solaris</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ChiliCoin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ChiliCoin</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/chilicoin-project/chilicoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/solaris-project/solaris-project-translations </translation>
+https://www.transifex.com/chilicoin-project/chilicoin-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Solaris network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Solaris poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the ChiliCoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią ChiliCoin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations </transla
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Solaris address (e.g. %1)</source>
-        <translation>Wprowadź adres Solaris (np. %1)</translation>
+        <source>Enter a ChiliCoin address (e.g. %1)</source>
+        <translation>Wprowadź adres ChiliCoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations </transla
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Solaris jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ChiliCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ChiliCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations </transla
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>&amp;Rdzeń Solaris</translation>
+        <source>ChiliCoin Core</source>
+        <translation>&amp;Rdzeń ChiliCoin</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations </transla
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>chilicoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

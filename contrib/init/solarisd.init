@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  solarisd The Solaris core server.
+#  chilicoind The ChiliCoin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: solarisd
-# processname: solarisd
+# description: chilicoind
+# processname: chilicoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/solarisd, see below
-if [ -f /etc/sysconfig/solarisd ]; then
-        . /etc/sysconfig/solarisd
+# you can override defaults in /etc/sysconfig/chilicoind, see below
+if [ -f /etc/sysconfig/chilicoind ]; then
+        . /etc/sysconfig/chilicoind
 fi
 
 RETVAL=0
 
-prog=solarisd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/solarisd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/solarisd}
+prog=chilicoind
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/chilicoind
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/chilicoind}
 
-# solarisd defaults to /usr/bin/solarisd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/solarisd}
+# chilicoind defaults to /usr/bin/chilicoind, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/chilicoind}
 
-# solarisd opts default to -disablewallet, override with BITCOIND_OPTS
+# chilicoind opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

@@ -1,19 +1,19 @@
 [Unit]
-Description=Solaris's distributed currency daemon
+Description=ChiliCoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=solaris
-Group=solaris
+User=chilicoin
+Group=chilicoin
 
 Type=forking
-PIDFile=/var/lib/solarisd/solarisd.pid
+PIDFile=/var/lib/chilicoind/chilicoind.pid
 
-ExecStart=/usr/bin/solarisd -daemon -pid=/var/lib/solarisd/solarisd.pid \
-          -conf=/etc/solaris/solaris.conf -datadir=/var/lib/solarisd
+ExecStart=/usr/bin/chilicoind -daemon -pid=/var/lib/chilicoind/chilicoind.pid \
+          -conf=/etc/chilicoin/chilicoin.conf -datadir=/var/lib/chilicoind
 
-ExecStop=-/usr/bin/solaris-cli -conf=/etc/solaris/solaris.conf \
-         -datadir=/var/lib/solarisd stop
+ExecStop=-/usr/bin/chilicoin-cli -conf=/etc/chilicoin/chilicoin.conf \
+         -datadir=/var/lib/chilicoind stop
 
 Restart=always
 PrivateTmp=true

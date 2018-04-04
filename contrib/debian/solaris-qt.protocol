@@ -1,6 +1,6 @@
 [Protocol]
-exec=solaris-qt '%u'
-protocol=solaris
+exec=chilicoin-qt '%u'
+protocol=chilicoin
 input=none
 output=none
 helper=true
