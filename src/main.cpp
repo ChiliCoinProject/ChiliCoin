@@ -2189,7 +2189,7 @@ int64_t GetBlockValue(int nHeight)
 		nSubsidy = 0.75;	
 	} else if (nHeight >= 480250 && nHeight < 560250) {
 		nSubsidy = 0.70;
-	} else if (nHeight >= 560250 && nHeight < 560250) {
+	} else if (nHeight >= 560250 && nHeight < 640250) {
 		nSubsidy = 0.65;
 	} else {
 		nSubsidy = 0.5;	
