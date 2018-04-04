@@ -2174,36 +2174,29 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     if (nHeight == 0) {
-        nSubsidy = 810000 * COIN;
-    } else if (nHeight < 86400 && nHeight > 0) {
-        nSubsidy = 2 * COIN;
-    } else if (nHeight < 151200 && nHeight >= 86400) {
-        nSubsidy = 2 * COIN;
-    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
-        nSubsidy = 2 * COIN;
-    } else if (nHeight <= 302399 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 1 * COIN;
-    } else if (nHeight <= 345599 && nHeight >= 302400) {
-        nSubsidy = 0.95 * COIN;
-    } else if (nHeight <= 388799 && nHeight >= 345600) {
-        nSubsidy = 0.90 * COIN;
-    } else if (nHeight <= 431999 && nHeight >= 388800) {
-        nSubsidy = 0.85 * COIN;
-    } else if (nHeight <= 475199 && nHeight >= 432000) {
-        nSubsidy = 0.80 * COIN;
-    } else if (nHeight <= 518399 && nHeight >= 475200) {
-        nSubsidy = 0.75 * COIN;
-    } else if (nHeight <= 561599 && nHeight >= 518400) {
-        nSubsidy = 0.70 * COIN;
-    } else if (nHeight <= 604799 && nHeight >= 561600) {
-        nSubsidy = 0.75 * COIN;
-    } else if (nHeight <= 647999 && nHeight >= 604800) {
-        nSubsidy = 0.70 * COIN;
-    } else if (nHeight >= 648000) {
-        nSubsidy = 0.25 * COIN;
-    } else {
-        nSubsidy = 0 * COIN;
-    }
+        nSubsidy = 1200000 * COIN;
+	} else if (nHeight <= Params().LAST_POW_BLOCK()) {
+		nSubsidy = 0;
+	} else if (nHeight > Params().LAST_POW_BLOCK() && nHeight < 80250) {
+		nSubsidy = 2;
+	} else if (nHeight >= 80250 && nHeight < 160250) {
+		nSubsidy = 1.75;	
+	} else if (nHeight >= 160250 && nHeight < 240250) {
+		nSubsidy = 1.5;	
+	} else if (nHeight >= 240250 && nHeight < 320250) {
+		nSubsidy = 1.25;	
+	} else if (nHeight >= 320250 && nHeight < 400250) {
+		nSubsidy = 1;	
+	} else if (nHeight >= 400250 && nHeight < 480250) {
+		nSubsidy = 0.75;	
+	} else if (nHeight >= 480250 && nHeight < 560250) {
+		nSubsidy = 0.70;
+	} else if (nHeight >= 560250 && nHeight < 560250) {
+		nSubsidy = 0.65;
+	} else {
+		nSubsidy = 0.5;	
+	}
+
     return nSubsidy;
 }
 

@@ -839,35 +839,30 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
         return ((nSubsidy / 100) * 10) * 146;
     }
 	
-    //get block value and calculate from that
     CAmount nSubsidy = 0;
-    if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
-        nSubsidy = 0.2 * COIN;
-	} else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight < 151200) {
-		nSubsidy = 0.2 * COIN;
-    } else if (nHeight <= 302399 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 0.1 * COIN;
-    } else if (nHeight <= 345599 && nHeight >= 302400) {
-        nSubsidy = 0.095 * COIN;
-    } else if (nHeight <= 388799 && nHeight >= 345600) {
-        nSubsidy = 0.09 * COIN;
-    } else if (nHeight <= 431999 && nHeight >= 388800) {
-        nSubsidy = 0.085 * COIN;
-    } else if (nHeight <= 475199 && nHeight >= 432000) {
-        nSubsidy = 0.08 * COIN;
-    } else if (nHeight <= 518399 && nHeight >= 475200) {
-        nSubsidy = 0.075 * COIN;
-    } else if (nHeight <= 561599 && nHeight >= 518400) {
-        nSubsidy = 0.07 * COIN;
-    } else if (nHeight <= 604799 && nHeight >= 561600) {
-        nSubsidy = 0.075 * COIN;
-    } else if (nHeight <= 647999 && nHeight >= 604800) {
-        nSubsidy = 0.07 * COIN;
-    } else if (nHeight >= 648000) {
-        nSubsidy = 0.025 * COIN;
-    } else {
-        nSubsidy = 0 * COIN;
-    }
+    if (nHeight == 0) {
+        nSubsidy = 0;
+	} else if (nHeight <= Params().LAST_POW_BLOCK()) {
+		nSubsidy = 0;
+	} else if (nHeight > Params().LAST_POW_BLOCK() && nHeight < 80250) {
+		nSubsidy = 0.2;
+	} else if (nHeight >= 80250 && nHeight < 160250) {
+		nSubsidy = 0.175;	
+	} else if (nHeight >= 160250 && nHeight < 240250) {
+		nSubsidy = 0.15;	
+	} else if (nHeight >= 240250 && nHeight < 320250) {
+		nSubsidy = 0.125;	
+	} else if (nHeight >= 320250 && nHeight < 400250) {
+		nSubsidy = 0.1;	
+	} else if (nHeight >= 400250 && nHeight < 480250) {
+		nSubsidy = 0.075;	
+	} else if (nHeight >= 480250 && nHeight < 560250) {
+		nSubsidy = 0.070;
+	} else if (nHeight >= 560250 && nHeight < 560250) {
+		nSubsidy = 0.065;
+	} else {
+		nSubsidy = 0.05;
+	}    
 
     return ((nSubsidy / 100) * 10) * 1440 * 30;
 }
