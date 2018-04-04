@@ -127,11 +127,10 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1522835441;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1914537;
+        genesis.nNonce = 135222;
         hashGenesisBlock = genesis.GetHash();
 
-
-        assert(hashGenesisBlock == uint256("0x0000084cfa8ba1faf61a0804f33410fb6142a0eaf6bbc890bfae76df86f83848"));
+        assert(hashGenesisBlock == uint256("0x0000008f122563c66741218bf583b2ad51f4399206b44b04d2f45422a5a5fc81"));
         assert(genesis.hashMerkleRoot == uint256("0xb8f4cc6d0a0ee83a2b99d181b48db6d72259c4d158c3eb622b942569a3e97aa0"));
 		
         vSeeds.push_back(CDNSSeedData("seednode.chilicoin.io", "seednode.chilicoin.io"));
