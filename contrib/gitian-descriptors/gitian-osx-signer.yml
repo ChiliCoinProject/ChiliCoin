@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/chilicoin-project/chilicoin-detached-sigs.git"
+- "url": "https://github.com/chilicoinproject/chilicoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "chilicoin-osx-unsigned.tar.gz"

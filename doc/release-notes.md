@@ -1,13 +1,13 @@
 ChiliCoin Core version 3.0.4 is now available from:
 
-  <https://github.com/chilicoin-project/chilicoin/releases>
+  <https://github.com/chilicoinproject/chilicoin/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/chilicoin-project/chilicoin/issues>
+  <https://github.com/chilicoinproject/chilicoin/issues>
 
 
 Mandatory Update

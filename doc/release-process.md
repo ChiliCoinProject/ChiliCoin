@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/chilicoin-project/gitian.sigs.git
-    git clone https://github.com/chilicoin-project/chilicoin-detached-sigs.git
+    git clone https://github.com/chilicoinproject/gitian.sigs.git
+    git clone https://github.com/chilicoinproject/chilicoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/chilicoin-project/chilicoin.git
+    git clone https://github.com/chilicoinproject/chilicoin.git
 
 ### ChiliCoin maintainers/release engineers, suggestion for writing release notes
 

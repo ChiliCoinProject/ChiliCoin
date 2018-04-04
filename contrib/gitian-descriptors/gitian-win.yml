@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/chilicoin-project/chilicoin.git"
+- "url": "https://github.com/chilicoinproject/chilicoin.git"
   "dir": "chilicoin"
 files: []
 script: |
