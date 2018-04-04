@@ -300,13 +300,13 @@ QHeaderView { /* Table Header */
 
     QHeaderView::section { /* Table Header Sections */
         qproperty-alignment: center;
-        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #C60000, stop: 1 #A6B206);
-        color: #fff;
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #FECA00, stop: 1 #FECA00);
+        color: #C60000;
         min-height: 25px;
         font-weight: bold;
         font-size: 11px;
         border: 0;
-        border-right: 1px solid #fff;
+        border-right: 1px solid #C60000;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 2px;
@@ -328,7 +328,7 @@ QHeaderView { /* Table Header */
 }
 
 QTableView::item { /* Table Item */
-    background-color: #fcfcfc;
+    background-color: transparent;
     font-size: 12px;
 }
 
