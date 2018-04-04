@@ -431,7 +431,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Unix: ~/.chilicoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ChiliCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "ChiliCoin-V2";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -443,10 +443,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "ChiliCoin";
+    return pathRet / "ChiliCoin-V2";
 #else
     // Unix
-    return pathRet / ".chilicoin";
+    return pathRet / ".chilicoin-v2";
 #endif
 #endif
 }
