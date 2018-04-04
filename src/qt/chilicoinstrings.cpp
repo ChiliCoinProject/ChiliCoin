@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("chilicoin-core", ""
 QT_TRANSLATE_NOOP("chilicoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("chilicoin-core", "(60020 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("chilicoin-core", "(61035 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("chilicoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("chilicoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("chilicoin-core", "(must be 60020 for mainnet)"),
+QT_TRANSLATE_NOOP("chilicoin-core", "(must be 61035 for mainnet)"),
 QT_TRANSLATE_NOOP("chilicoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("chilicoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("chilicoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

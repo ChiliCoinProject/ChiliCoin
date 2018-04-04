@@ -45,32 +45,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"))
-	(2, uint256("0x00000310d966793ec3dd080a97b10afa0c848432c01b4053d2c6f206e1449e28"))
-	(1479, uint256("0x00000000071b53f74e2f55ffa657cf1fc39807fb584e797ed0c6b22a4527d51c"))
-	(5000, uint256("0x0000000002afc607345f345261bf9713c7a9cf8d50191cb338250bd4be0090b5"))
-	(10000, uint256("0x000000000a43a6d2b09f1dbf4ea454b639838fb43686158e131d8b7a36777ca6"))
-	(20000, uint256("0x0000000000e1a4f0659738de768c662164a20f11ca16c77dde422ee2d7369a80"))
-	(30000, uint256("0x00000000040ac4aa7fda2d6fdd2745c788469b482eec8da79842e88bbbfc70c3"))
-	(40000, uint256("0x0000000003265c4aded591f0b648b626abf0e4316295b6baeeadbb6c744f768e"))
-	(50000, uint256("0x00000000052c4943642d41377f0968650871a5351c896a4cfe74e41edd2adf28"))
-	(60000, uint256("0x00000000016a565d7d8b0c96138a9d6873510fece3beffd5295ea517ce4e6b8d"))
-	(70000, uint256("0x00000000039673e6ee9944479068800c78f479dfb6b5d23d748d542af073440d"))
-	(80000, uint256("0x0000000008dacfe17e44c93490c36c4d365fb6309f614c05bfa9952e9c08765f"))
-	(89319, uint256("0x00000000031005c122f47eef1495a44221632fc7cc94b6b5ff68bc7da826c012"))	
-	(95771, uint256("0x00000000021cef5896d94a2d87d928d8fdf943a8d260386471e06b03c635acc6"))
-	(104581, uint256("0x0000000001040e54fab7cb94317cade9461c6500c77a492ba1afd4d04949861b"))
-	(127770, uint256("0x000000000053c7733ed070490012321680e21557bb309ebc0e52265326ffbd0d"))
-	(130116, uint256("0x000000000059038c0121e8c503ba86ca6233b25f0ab1c4836be94d5e1bc79db9"))
-	(152989, uint256("0x0000000000a34969026f2d3e05aa2e8464581107530d8c40ea353dc4244d3161"))
-	(212169, uint256("0x00000000005f7efd88cc09dd9de600150868a75e27a4cb363801e79e5dda4d6d"))
-	(233743, uint256("0x00000000005c3dd73f74c2dc59573c040851a47d4d0a51fa627b120ddf65fab7"));
+	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
 	
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1522247712, // * UNIX timestamp of last checkpoint block
-    286541,    // * total number of transactions between genesis and last checkpoint
+    0, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1800        // * estimated number of transactions per day after checkpoint
 };
@@ -109,12 +90,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x02;
-        pchMessageStart[1] = 0x21;
-        pchMessageStart[2] = 0x01;
-        pchMessageStart[3] = 0xa1;
-        vAlertPubKey = ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d");
-        nDefaultPort = 60020;
+        pchMessageStart[0] = 0x15;
+        pchMessageStart[1] = 0x23;
+        pchMessageStart[2] = 0x1c;
+        pchMessageStart[3] = 0x3b;
+        vAlertPubKey = ParseHex("04b9da15ce32055c449a7e0fd585239393138ff2770939f4c681aa6b2ff789d8e2fd81d1b07d0dc3a29480486ed514870376a2669c4b249857a082f20922617c58");
+        nDefaultPort = 61035;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // ChiliCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -122,16 +103,16 @@ public:
         nTargetTimespan = 1 * 60; // ChiliCoin: 1 minute
         nTargetSpacing = 1 * 60;  // ChiliCoin: 1 minute
         nMaturity = 101;
-		nMaxMoneyOut = 10000000000 * COIN;
+		nMaxMoneyOut = 10000000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 250;
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nZerocoinStartTime = 1524060000; // Wednesday 18 April 2018 14:00:00 UTC
-		nZerocoinStartHeight = 259300;
+		nZerocoinStartHeight = 255;
 		
-		const char* pszTimestamp = "ChiliCoin 30-09-2017";
+		const char* pszTimestamp = "ChiliCoin reborn hot as hell";
 		
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -139,36 +120,23 @@ public:
 				
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04b9da15ce32055c449a7e0fd585239393138ff2770939f4c681aa6b2ff789d8e2fd81d1b07d0dc3a29480486ed514870376a2669c4b249857a082f20922617c58") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1506779239;
+        genesis.nTime = 0;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 500317;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
 		
-        assert(hashGenesisBlock == uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
-        assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 		
-        vSeeds.push_back(CDNSSeedData("chilicoinnode.dyndns.org", "chilicoinnode.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode1.dyndns.org", "chilicoinnode1.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode2.dyndns.org", "chilicoinnode2.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode3.dyndns.org", "chilicoinnode3.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode4.dyndns.org", "chilicoinnode4.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode5.dyndns.org", "chilicoinnode5.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("chilicoinnode6.dyndns.org", "chilicoinnode6.dyndns.org"));
-		
-		vSeeds.push_back(CDNSSeedData("node1.chilicoincoin.com", "node1.chilicoincoin.com"));
-		vSeeds.push_back(CDNSSeedData("node2.chilicoincoin.com", "node2.chilicoincoin.com"));
-		vSeeds.push_back(CDNSSeedData("node3.chilicoincoin.com", "node3.chilicoincoin.com"));
-		vSeeds.push_back(CDNSSeedData("node4.chilicoincoin.com", "node4.chilicoincoin.com"));
-		vSeeds.push_back(CDNSSeedData("node5.chilicoincoin.com", "node5.chilicoincoin.com"));
-		vSeeds.push_back(CDNSSeedData("node6.chilicoincoin.com", "node6.chilicoincoin.com"));
+        vSeeds.push_back(CDNSSeedData("seednode.chilicoin.io", "seednode.chilicoin.io"));
 
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
@@ -186,7 +154,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
         nPoolMaxTransactions = 3;
-        strSporkKey = "045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d";
+        strSporkKey = "04b9da15ce32055c449a7e0fd585239393138ff2770939f4c681aa6b2ff789d8e2fd81d1b07d0dc3a29480486ed514870376a2669c4b249857a082f20922617c58";
         
         strObfuscationPoolDummyAddress = "Sg3aLcSeLqbpEsVgoXtDFrpDYDfAsf1qxv";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
