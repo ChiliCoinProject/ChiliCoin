@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 CHILI</source>
+        <translation>0 CHILI</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -783,7 +783,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZCHILIControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

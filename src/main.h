@@ -371,9 +371,9 @@ int GetZerocoinStartHeight();
 bool IsTransactionInChain(uint256 txId, int& nHeightTx);
 bool IsBlockHashInChain(const uint256& hashBlock);
 bool ValidOutPoint(const COutPoint out, int nHeight);
-void RecalculateZXLRSpent();
-void RecalculateZXLRMinted();
-bool RecalculateXLRSupply(int nHeightStart);
+void RecalculateZCHILISpent();
+void RecalculateZCHILIMinted();
+bool RecalculateCHILISupply(int nHeightStart);
 
 
 /**

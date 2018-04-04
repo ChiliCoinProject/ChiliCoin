@@ -46,7 +46,7 @@ public:
 
     void setModel(WalletModel* model);
     void showOutOfSyncWarning(bool fShow);
-    void setZXLRControlLabels(int64_t nAmount, int nQuantity);
+    void setZCHILIControlLabels(int64_t nAmount, int nQuantity);
 
 public slots:
     void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
@@ -76,7 +76,7 @@ private:
 
     int nDisplayUnit;
     bool updateLabel(const QString& address);
-    void sendzXLR();
+    void sendzCHILI();
 
 private slots:
     void on_payTo_textChanged(const QString& address);
@@ -96,11 +96,11 @@ private slots:
 //    void coinControlClipboardLowOutput();
 //    void coinControlClipboardChange();
 
-    void on_pushButtonMintzXLR_clicked();
+    void on_pushButtonMintzCHILI_clicked();
     void on_pushButtonMintReset_clicked();
     void on_pushButtonSpentReset_clicked();
-    void on_pushButtonSpendzXLR_clicked();
-    void on_pushButtonZXLRControl_clicked();
+    void on_pushButtonSpendzCHILI_clicked();
+    void on_pushButtonZCHILIControl_clicked();
     void on_pasteButton_clicked();
     void updateDisplayUnit();
 };

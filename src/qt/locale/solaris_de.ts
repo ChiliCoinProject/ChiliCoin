@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>ChiliCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer XLRs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>ChiliCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHILIs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer CHILIs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre XLRs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHILI&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre CHILIs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privatsphäre</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>Privatsphäre Aktion für zXLR und Verschleierung</translation>
+        <source>Privacy Action for zCHILI and Obfuscation</source>
+        <translation>Privatsphäre Aktion für zCHILI und Verschleierung</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1539,32 +1539,32 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Bitte den gewünschten Privatsphäre Level auswählen.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>2 separate Masternodes verwenden um bis zu 10000 XLR zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHILI</source>
+        <translation>2 separate Masternodes verwenden um bis zu 10000 CHILI zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>8 separate Masternodes verwenden um bis zu 10000 XLR zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHILI</source>
+        <translation>8 separate Masternodes verwenden um bis zu 10000 CHILI zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 separate Masternodes verwenden</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 XLR um 10000 XLR zu anonymisieren </translation>
+        <source>This option is the quickest and will cost about ~0.025 CHILI to anonymize 10000 CHILI</source>
+        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 CHILI um 10000 CHILI zu anonymisieren </translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 XLR um 10000 XLR zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 CHILI to anonymize 10000 CHILI</source>
+        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 CHILI um 10000 CHILI zu anonymisieren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Diese Option ist die langsamste und sicherste Option. Die Verwendung maximaler Anonymisierung kostet</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR per 10000 XLR die anonymisiert werden.</translation>
+        <source>0.1 CHILI per 10000 CHILI you anonymize.</source>
+        <translation>0.1 CHILI per 10000 CHILI die anonymisiert werden.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1707,20 +1707,20 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden XLR, welcher automatisch zu zXLR via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
+        <source>Percentage of incoming CHILI which get automatically converted to zCHILI via Zerocoin Protocol (min: 10%)</source>
+        <translation>Anteil des eingehenden CHILI, welcher automatisch zu zCHILI via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>Prozentsatz der automatisierten zXLR</translation>
+        <source>Percentage of autominted zCHILI</source>
+        <translation>Prozentsatz der automatisierten zCHILI</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend XLR für diese Stückelung verfügbar ist</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough CHILI for this denomination is available</source>
+        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend CHILI für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>Bevorzugte automatisierte zXLR Stückelung </translation>
+        <source>Preferred Automint zCHILI Denomination</source>
+        <translation>Bevorzugte automatisierte zCHILI Stückelung </translation>
     </message>
     <message>
         <source>Connect to the ChiliCoin network through a SOCKS5 proxy.</source>
@@ -1854,8 +1854,8 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Formular</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>XLR Bilanzen</translation>
+        <source>CHILI Balances</source>
+        <translation>CHILI Bilanzen</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1922,12 +1922,12 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Kombinierte Bilanz (einschließlich unreifer Coins)</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>CHILI:</source>
+        <translation>CHILI:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zCHILI:</source>
+        <translation>zCHILI:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2055,12 +2055,12 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR, die über das Zerocoin-Protokoll anonymisiert wurden</translation>
+        <source>CHILI which were anonymized via Zerocin Protocol</source>
+        <translation>CHILI, die über das Zerocoin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>ZeroChiliCoin (zXLR)</source>
-        <translation>ZeroChiliCoin (zXLR)</translation>
+        <source>ZeroChiliCoin (zCHILI)</source>
+        <translation>ZeroChiliCoin (zCHILI)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2071,8 +2071,8 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem ChiliCoin-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Eingabe des XLR-Betrags, um in zXLR umzuwandeln</translation>
+        <source>Enter an amount of CHILI to convert to zCHILI</source>
+        <translation>Eingabe des CHILI-Betrags, um in zCHILI umzuwandeln</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2083,16 +2083,16 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zCHILI</source>
+        <translation>zCHILI</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Verfügbar für Prägung:</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 CHILI</source>
+        <translation>0.000 000 00 CHILI</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2127,12 +2127,12 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Status und/oder Mitteilungen aus der letzten Prägung</translation>
     </message>
     <message>
-        <source>zXLR Control</source>
-        <translation>zXLR Kontrolle</translation>
+        <source>zCHILI Control</source>
+        <translation>zCHILI Kontrolle</translation>
     </message>
     <message>
-        <source>zXLR Selected:</source>
-        <translation>zXLR Ausgewählt:</translation>
+        <source>zCHILI Selected:</source>
+        <translation>zCHILI Ausgewählt:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2151,8 +2151,8 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Verfügbare Bilanz:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zCHILI</source>
+        <translation>0 zCHILI</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2391,8 +2391,8 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>Erfolgreich geprägt</translation>
     </message>
     <message>
-        <source> zXLR in </source>
-        <translation> zXLR in </translation>
+        <source> zCHILI in </source>
+        <translation> zCHILI in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2469,8 +2469,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ausgeben Zerocoin fehlgeschlagen mit Status =</translation>
     </message>
     <message>
-        <source>zXLR Spend #: </source>
-        <translation>zXLR Ausgeben #:</translation>
+        <source>zCHILI Spend #: </source>
+        <translation>zCHILI Ausgeben #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2493,8 +2493,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>zXLR Mint</source>
-        <translation>zXLR Prägen</translation>
+        <source>zCHILI Mint</source>
+        <translation>zCHILI Prägen</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3051,7 +3051,7 @@ Bitte haben Sie Geduld...</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>XLRs überweisen</translation>
+        <translation>CHILIs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3122,8 +3122,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 CHILI</source>
+        <translation>0 CHILI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3174,12 +3174,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Coins automatisch ausgewählt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uXLRs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uXLRs an Gebühren,&lt;br /&gt;während man "mindestens" 1000 uXLRs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHILIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCHILIs in fee,&lt;br /&gt;while "at least" pays 1000 uCHILIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uCHILIs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uCHILIs an Gebühren,&lt;br /&gt;während man "mindestens" 1000 uCHILIs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uXLRs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uXLRs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uXLRs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHILIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCHILIs in fee,&lt;br /&gt;while "total at least" pays 1000 uCHILIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uCHILIs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uCHILIs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uCHILIs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ChiliCoin transactions than the network can process.</source>
@@ -3230,8 +3230,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Empfänge&amp;r hinzufügen</translation>
     </message>
     <message>
-        <source>Anonymized XLR</source>
-        <translation>Anonymisierte XLR</translation>
+        <source>Anonymized CHILI</source>
+        <translation>Anonymisierte CHILI</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3805,7 +3805,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte XLRs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine XLRs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte CHILIs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine CHILIs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3950,32 +3950,32 @@ Bitte haben Sie Geduld...</translation>
         <translation>Verschleiert</translation>
     </message>
     <message>
-        <source>Converted XLR to zXLR</source>
-        <translation>Umgewandeltes XLR zu zXLR</translation>
+        <source>Converted CHILI to zCHILI</source>
+        <translation>Umgewandeltes CHILI zu zCHILI</translation>
     </message>
     <message>
-        <source>Spent zXLR</source>
-        <translation>Ausgeben zXLR</translation>
+        <source>Spent zCHILI</source>
+        <translation>Ausgeben zCHILI</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Empfangene XLR von zXLR</translation>
+        <source>Received CHILI from zCHILI</source>
+        <translation>Empfangene CHILI von zCHILI</translation>
     </message>
     <message>
-        <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>Geprägtes Wechselgeld als zXLR von zXLR Ausgabe</translation>
+        <source>Minted Change as zCHILI from zCHILI Spend</source>
+        <translation>Geprägtes Wechselgeld als zCHILI von zCHILI Ausgabe</translation>
     </message>
     <message>
-        <source>Converted zXLR to XLR</source>
-        <translation>Umgewandeltes zXLR zu XLR</translation>
+        <source>Converted zCHILI to CHILI</source>
+        <translation>Umgewandeltes zCHILI zu CHILI</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>nur beobachtet</translation>
     </message>
     <message>
-        <source>zXLR Accumulator</source>
-        <translation>zXLR Speicher</translation>
+        <source>zCHILI Accumulator</source>
+        <translation>zCHILI Speicher</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4085,8 +4085,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Masternode Vergütung</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Empfangene XLR von zXLR</translation>
+        <source>Received CHILI from zCHILI</source>
+        <translation>Empfangene CHILI von zCHILI</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4097,8 +4097,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Zerocoin Ausgabe</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>Zerocoin Ausgabe, Wechselgeld in zXLR</translation>
+        <source>Zerocoin Spend, Change in zCHILI</source>
+        <translation>Zerocoin Ausgabe, Wechselgeld in zCHILI</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4219,11 +4219,11 @@ Bitte haben Sie Geduld...</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>XLRs überweisen</translation>
+        <translation>CHILIs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 XLR begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CHILI.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 CHILI begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -4266,10 +4266,10 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZCHILIControlDialog</name>
     <message>
-        <source>Select zXLR to Spend</source>
-        <translation>Auswahl zXLR als Ausgabe</translation>
+        <source>Select zCHILI to Spend</source>
+        <translation>Auswahl zCHILI als Ausgabe</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4280,8 +4280,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zCHILI</source>
+        <translation>zCHILI</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4363,12 +4363,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Befehl ausführen, wenn sich der beste Block ändert (%s in cmd wird durch Blockhash ersetzt)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebühren (in XLR/kB) kleiner als diese gelten für die Weiterleitung als Null-Gebühr  (default: %s)</translation>
+        <source>Fees (in CHILI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebühren (in CHILI/kB) kleiner als diese gelten für die Weiterleitung als Null-Gebühr  (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebühren (in XLR/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
+        <source>Fees (in CHILI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebühren (in CHILI/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4755,8 +4755,8 @@ Beispiel: alertnotify=echo %%s | mail -s "ChiliCoin Alert" admin@foo.com
         <translation>Block konnte nicht gelesen werden</translation>
     </message>
     <message>
-        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühr (in XLR/kB) die den Transaktionen, die Sie überweisen, hinzugefügt wird (Standard: %s)</translation>
+        <source>Fee (in CHILI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühr (in CHILI/kB) die den Transaktionen, die Sie überweisen, hinzugefügt wird (Standard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>ChiliCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <source>ChiliCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHILIs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHILI&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zXLR</source>
+        <source>Privacy Actions for zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
+        <source>This option is the quickest and will cost about ~0.025 CHILI to anonymize 10000 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
+        <source>This option is moderately fast and will cost about 0.05 CHILI to anonymize 10000 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <source>0.1 CHILI per 10000 CHILI you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,23 +2162,23 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</sour
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming CHILI which get automatically converted to zCHILI via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zXLR</source>
+        <source>Percentage of autominted zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough CHILI for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zXLR Denomination</source>
+        <source>Preferred Automint zCHILI Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</sour
     </message>
     <message>
         <location line="+43"/>
-        <source>XLR Balances</source>
+        <source>CHILI Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,17 +2449,17 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</sour
     </message>
     <message>
         <location line="+36"/>
-        <source>XLR:</source>
+        <source>CHILI:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zXLR:</source>
+        <source>zCHILI:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zXLR.
+        <source>Current percentage of zCHILI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked XLR or Masternode collaterals. These are excluded from zXLR minting.</source>
+        <source>Locked CHILI or Masternode collaterals. These are excluded from zCHILI minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 XLR</source>
+        <source>0.000 000 00 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked XLRs. These can be used for zXLR minting.</source>
+        <source>Unlocked CHILIs. These can be used for zCHILI minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zXLR are spendable.</source>
+These zCHILI are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zXLR are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zXLR, unconfirmed and immature zXLR included.</source>
+        <source>All available zCHILI, unconfirmed and immature zCHILI included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zXLR.
+        <source>Current percentage of zCHILI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
+        <source>CHILI which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>ZeroChiliCoin (zXLR)</source>
+        <source>ZeroChiliCoin (zCHILI)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2737,7 +2737,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of XLR to convert to zXLR</source>
+        <source>Enter an amount of CHILI to convert to zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zXLR</source>
+        <source>zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 XLR</source>
+        <source>0.000 000 00 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2816,12 +2816,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zXLR Control</source>
+        <source>zCHILI Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zXLR Selected:</source>
+        <source>zCHILI Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zXLR for spending</source>
+        <source>Available (mature and spendable) zCHILI for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zXLR for spending
+        <source>Available (mature and spendable) zCHILI for spending
 
-zXLR are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zCHILI are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zXLR</source>
+        <source>0 zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zXLR are mature when they have more than 20 confirmations AND more than 3 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zXLR</source>
+        <source>Total Balance including unconfirmed and immature zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zXLR in </source>
+        <source> zCHILI in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3304,7 +3304,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zXLR Spend #: </source>
+        <source>zCHILI Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3334,7 +3334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zXLR Mint</source>
+        <source>zCHILI Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 XLR</source>
+        <source>0 CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,12 +4253,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXLRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uCHILIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHILIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCHILIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXLRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uCHILIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHILIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCHILIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized XLR</source>
+        <source>Anonymized CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,27 +5270,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted XLR to zXLR</source>
+        <source>Converted CHILI to zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zXLR</source>
+        <source>Spent zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received XLR from zXLR</source>
+        <source>Received CHILI from zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zXLR from zXLR Spend</source>
+        <source>Minted Change as zCHILI from zCHILI Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zXLR to XLR</source>
+        <source>Converted zCHILI to CHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5300,7 +5300,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zXLR Accumulator</source>
+        <source>zCHILI Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received XLR from zXLR</source>
+        <source>Received CHILI from zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5454,7 +5454,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zXLR</source>
+        <source>Zerocoin Spend, Change in zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CHILI.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5664,10 +5664,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZCHILIControlDialog</name>
     <message>
-        <location filename="../forms/zxlrcontroldialog.ui" line="+20"/>
-        <source>Select zXLR to Spend</source>
+        <location filename="../forms/zchilicontroldialog.ui" line="+20"/>
+        <source>Select zCHILI to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5683,7 +5683,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zXLR</source>
+        <source>zCHILI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in CHILI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in CHILI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;ChiliCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CHILI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CHILI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ChiliCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in CHILI/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6538,7 +6538,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ChiliCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+44"/>
-        <source>Enable automatic wallet backups triggered after each zXLR minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zCHILI minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

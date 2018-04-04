@@ -263,7 +263,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZCHILIControlDialog</name>
     </context>
 <context>
     <name>chilicoin-core</name>

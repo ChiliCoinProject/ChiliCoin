@@ -91,12 +91,12 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    Object zxlrObj;
+    Object zchiliObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zxlrObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zchiliObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zxlrObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.emplace_back(Pair("zXLRsupply", zxlrObj));
+    zchiliObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.emplace_back(Pair("zCHILIsupply", zchiliObj));
 
     return result;
 }
@@ -279,17 +279,17 @@ Value getblock(const Array& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zXLRsupply\" :\n"
+            "  \"zCHILIsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zXLR denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zXLR denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zXLR denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zXLR denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zXLR denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zXLR denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zXLR denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zXLR denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zXLR denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zCHILI denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zCHILI denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zCHILI denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zCHILI denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zCHILI denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zCHILI denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zCHILI denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zCHILI denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zCHILI denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"
