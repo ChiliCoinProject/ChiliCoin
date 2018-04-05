@@ -5,52 +5,25 @@
 <ul>
 <li>Xevan</li>
 </ul>
-<p><strong><span style="color: #800080;"><em>PoW Block Reward:</em></span></strong></p>
-<ul>
-<li>[block# 2-43200] 20% MN (0.4 CHILI) / 80% MINER (1.6 CHILI) [block# 43201-151200] 20% MN (0.4 CHILI) / 70% MINER (1.4 CHILI) / 10% Available to the budget system (0.20 CHILI) [block# 151201-259200] 45% MN (0.9 CHILI) / 45% MINER (0.9 CHILI) / 10% Available to the budget system (0.2 CHILI)</li>
-</ul>
 <p><strong><span style="color: #800080;"><em>PoS Block Reward:</em></span></strong></p>
 <ul>
-<li>[block# 259201-Infinite] Variable based on SeeSaw Reward Mechanism</li>
+<li>[block# 251-Infinite] Variable based on SeeSaw Reward Mechanism</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>Block Time:</em></span></strong></p>
 <ul>
 <li>60 Seconds with Retargeting every Block</li>
 </ul>
-<p><strong><span style="color: #800080;"><em>Max Coin Supply:</em></span></strong></p>
-<ul>
-<li>PoW Phase: 518.400</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>Max Coin Supply:</em></span></strong></p>
-<ul>
-<li>PoS Phase: Infinte</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Phase 1:</em></span></strong></p>
-<ul>
-<li>[block# 1] 810000 Premine to support the swap.</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Phase 2:</em></span></strong></p>
-<ul>
-<li>[block#&rsquo;s 2-259200] Approx 180 Days</li>
-</ul>
-<p><strong><span style="color: #800080;"><em>PoW Rewards Breakdown:</em></span></strong></p>
-<ul>
-<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-43200] 20% MN (0.4 CHILI) &nbsp; &nbsp;/ 80% MINER (1.6 CHILI)</li>
-<li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (0.4 CHILI) &nbsp; &nbsp;/ 70% MINER (1.4 CHILI) &nbsp;/ 10% Available to the budget system (0.20 CHILI)</li>
-<li>[block&rsquo;s 151201-259200] 45% MN (0.9 CHILI) / 45% MINER (0.9 CHILI) / 10% Available to the budget system ( &nbsp;0.2 CHILI)</li>
-</ul>
 <p><strong><span style="color: #800080;"><em>PoS Rewards Breakdown:</em></span></strong></p>
 <ul>
-<li>PoS Phase 1: [blocks 259201-302399] 1 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 2: [blocks 302400-345599] 0.95 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 3: [blocks 345600-388799] 0.9 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 4: [blocks 388800-431999] 0.85 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 5: [blocks 432000-475199] 0.80 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 6: [blocks 475200-518399] 0.75 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 7: [blocks 518400-561599] 0.70 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 8: [blocks 561600-604799] 0.75 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 9: [blocks 604800-647999] 0.70 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 0.25 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 1: [blocks 251-80249] 2 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 2: [blocks 80250-160249] 1.75 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 3: [blocks 160250-240249] 1.5 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 4: [blocks 240250-320249] 1.25 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 5: [blocks 320250-400249] 1 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 6: [blocks 400250-480249] 0.75 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 6: [blocks 480250-560249] 0.70 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 7: [blocks 560250-640249] 0.65 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase X: [blocks 640250-Infinite] 0.5 CHILI (90% distributed to staker and masternode - 10% available to budget system)</li>
 </ul>
 <br/>
 <p>&nbsp;</p>
