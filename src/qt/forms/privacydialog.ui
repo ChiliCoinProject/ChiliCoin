@@ -58,7 +58,7 @@
           <bool>true</bool>
          </property>
          <property name="text">
-          <string>ZeroChiliCoin (zCHILI)</string>
+          <string>ZeroChili (zCHILI)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>

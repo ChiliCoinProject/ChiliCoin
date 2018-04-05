@@ -1304,8 +1304,8 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>ZeroChiliCoin (zCHILI)</source>
-        <translation>ZeroChiliCoin (zCHILI)</translation>
+        <source>ZeroChili (zCHILI)</source>
+        <translation>ZeroChili (zCHILI)</translation>
     </message>
     <message>
         <source>0</source>

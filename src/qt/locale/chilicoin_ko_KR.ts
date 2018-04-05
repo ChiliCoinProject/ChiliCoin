@@ -2068,7 +2068,7 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>제로코인 프로토콜을 통해 익명화된 CHILI</translation>
     </message>
     <message>
-        <source>ZeroChiliCoin (zCHILI)</source>
+        <source>ZeroChili (zCHILI)</source>
         <translation>제로코인 CHILI (zCHILI)</translation>
     </message>
     <message>

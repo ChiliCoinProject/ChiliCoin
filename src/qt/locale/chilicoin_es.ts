@@ -2068,8 +2068,8 @@ https://www.transifex.com/chilicoin-project/chilicoin-project-translations</tran
         <translation>CHILI que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>ZeroChiliCoin (zCHILI)</source>
-        <translation>ZeroChiliCoin (zCHILI)</translation>
+        <source>ZeroChili (zCHILI)</source>
+        <translation>ZeroChili (zCHILI)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
