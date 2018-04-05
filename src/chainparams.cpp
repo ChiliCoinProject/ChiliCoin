@@ -14,11 +14,14 @@
 #include <boost/assign/list_of.hpp>
 using namespace std;
 using namespace boost::assign;
+
 struct SeedSpec6 {
     uint8_t addr[16];
     uint16_t port;
 };
+
 #include "chainparamsseeds.h"
+
 /**
  * Main network
  */
@@ -38,6 +41,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
         vSeedsOut.push_back(addr);
     }
 }
+
 //   What makes a good checkpoint block?
 // + Is surrounded by blocks with reasonable timestamps
 //   (no blocks before with a timestamp after, none after with
@@ -45,15 +49,16 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x0000084cfa8ba1faf61a0804f33410fb6142a0eaf6bbc890bfae76df86f83848"));
-	
+    (0, uint256("0x0000084cfa8ba1faf61a0804f33410fb6142a0eaf6bbc890bfae76df86f83848"))
+    (717, uint256("0xbbf3986425252640e9b25535f9e0ca84a0b87b701b56960ea57b3fd1be2e8a86"));
+
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1522871027, // * UNIX timestamp of last checkpoint block
-    116,    // * total number of transactions between genesis and last checkpoint
-                //   (the tx=... number in the SetBestChain debug.log lines)
-    2880        // * estimated number of transactions per day after checkpoint
+    1522952082, // * UNIX timestamp of last checkpoint block
+    968,        // * total number of transactions between genesis and last checkpoint
+    //   (the tx=... number in the SetBestChain debug.log lines)
+    2880 // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -61,14 +66,16 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1740710,
     0,
-    250};
+    250
+};
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1454124731,
     0,
-    100};
+    100
+};
 
 libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 {
@@ -78,8 +85,8 @@ libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 
     return &ZCParams;
 }
-class CMainParams : public CChainParams
-{
+
+class CMainParams : public CChainParams {
 public:
     CMainParams()
     {
@@ -103,21 +110,21 @@ public:
         nTargetTimespan = 1 * 60; // ChiliCoin: 1 minute
         nTargetSpacing = 1 * 60;  // ChiliCoin: 1 minute
         nMaturity = 101;
-		nMaxMoneyOut = 10000000 * COIN;
+        nMaxMoneyOut = 10000000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 250;
         nModifierUpdateBlock = 1;
-		
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nZerocoinStartTime = 1524060000; // Wednesday 18 April 2018 14:00:00 UTC
-		nZerocoinStartHeight = 255;
-		
-		const char* pszTimestamp = "ChiliCoin reborn hot as hell";
-		
+
+        nBlockEnforceSerialRange = 1;    //Enforce serial range starting this block
+        nZerocoinStartTime = 1522953543; // Thu, 05 Apr 2018 18:39:03 GMT
+        nZerocoinStartHeight = 255;
+
+        const char* pszTimestamp = "ChiliCoin reborn hot as hell";
+
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
-				
+
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04b9da15ce32055c449a7e0fd585239393138ff2770939f4c681aa6b2ff789d8e2fd81d1b07d0dc3a29480486ed514870376a2669c4b249857a082f20922617c58") << OP_CHECKSIG;
@@ -132,17 +139,17 @@ public:
 
         assert(hashGenesisBlock == uint256("0x0000008f122563c66741218bf583b2ad51f4399206b44b04d2f45422a5a5fc81"));
         assert(genesis.hashMerkleRoot == uint256("0xb8f4cc6d0a0ee83a2b99d181b48db6d72259c4d158c3eb622b942569a3e97aa0"));
-		
+
         vSeeds.push_back(CDNSSeedData("seednode.chilicoin.io", "seednode.chilicoin.io"));
 
-		
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char>>();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char>>();
         // 	BIP44 coin type is 'TBD'
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char>>();
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
         fRequireRPCPassword = true;
         fMiningRequiresPeers = true;
@@ -155,7 +162,7 @@ public:
         fHeadersFirstSyncingActive = false;
         nPoolMaxTransactions = 3;
         strSporkKey = "04b9da15ce32055c449a7e0fd585239393138ff2770939f4c681aa6b2ff789d8e2fd81d1b07d0dc3a29480486ed514870376a2669c4b249857a082f20922617c58";
-        
+
         strObfuscationPoolDummyAddress = "Sg3aLcSeLqbpEsVgoXtDFrpDYDfAsf1qxv";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
@@ -167,24 +174,26 @@ public:
             "8441436038339044149526344321901146575444541784240209246165157233507787077498171257724679629263863563732899121548"
             "31438167899885040445364023527381951378636564391212010397122822120720357";
         nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
-        nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
-        nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19
+        nMinZerocoinMintFee = 1 * CENT;       //high fee required for zerocoin mints
+        nMintRequiredConfirmations = 20;      //the maximum amount of confirmations until accumulated in 19
         nRequiredAccumulation = 2;
-        nDefaultSecurityLevel = 100; //full security level for accumulators
-        nZerocoinHeaderVersion = 4; //Block headers must be this version once zerocoin is active
+        nDefaultSecurityLevel = 100;   //full security level for accumulators
+        nZerocoinHeaderVersion = 4;    //Block headers must be this version once zerocoin is active
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
+
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
         return data;
     }
 };
+
 static CMainParams mainParams;
+
 /**
  * Testnet (v3)
  */
-class CTestNetParams : public CMainParams
-{
+class CTestNetParams : public CMainParams {
 public:
     CTestNetParams()
     {
@@ -220,11 +229,11 @@ public:
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet chilicoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         // Testnet chilicoin BIP32 pubkeys start with 'DRKV'
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char>>();
         // Testnet chilicoin BIP32 prvkeys start with 'DRKP'
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char>>();
         // Testnet chilicoin BIP44 coin type is '1' (All coin's testnet default)
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char>>();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;
         fMiningRequiresPeers = true;
@@ -237,20 +246,22 @@ public:
         strSporkKey = "04348C2F50F90267E64FACC65BFDC9D0EB147D090872FB97ABAE92E9A36E6CA60983E28E741F8E7277B11A7479B626AC115BA31463AC48178A5075C5A9319D4A38";
         strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
-        nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short 
-                                       // here because we only have a 8 block finalization window on testnet
+        nBudget_Fee_Confirmations = 3;         // Number of confirmations for the finalization fee. We have to make this very short 
+        // here because we only have a 8 block finalization window on testnet
     }
+
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
         return dataTestnet;
     }
 };
+
 static CTestNetParams testNetParams;
+
 /**
  * Regression test
  */
-class CRegTestParams : public CTestNetParams
-{
+class CRegTestParams : public CTestNetParams {
 public:
     CRegTestParams()
     {
@@ -282,17 +293,19 @@ public:
         fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
     }
+
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
         return dataRegtest;
     }
 };
+
 static CRegTestParams regTestParams;
+
 /**
  * Unit test
  */
-class CUnitTestParams : public CMainParams, public CModifiableParams
-{
+class CUnitTestParams : public CMainParams, public CModifiableParams {
 public:
     CUnitTestParams()
     {
@@ -307,11 +320,13 @@ public:
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
     }
+
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
         // UnitTest share the same checkpoints as MAIN
         return data;
     }
+
     //! Published setters to allow changing values in unit test cases
     virtual void setSubsidyHalvingInterval(int anSubsidyHalvingInterval) { nSubsidyHalvingInterval = anSubsidyHalvingInterval; }
     virtual void setDefaultConsistencyChecks(bool afDefaultConsistencyChecks) { fDefaultConsistencyChecks = afDefaultConsistencyChecks; }
@@ -326,6 +341,7 @@ const CChainParams& Params()
     assert(pCurrentParams);
     return *pCurrentParams;
 }
+
 CChainParams& Params(CBaseChainParams::Network network)
 {
     switch (network) {
@@ -340,11 +356,13 @@ CChainParams& Params(CBaseChainParams::Network network)
         return mainParams;
     }
 }
+
 void SelectParams(CBaseChainParams::Network network)
 {
     SelectBaseParams(network);
     pCurrentParams = &Params(network);
 }
+
 bool SelectParamsFromCommandLine()
 {
     CBaseChainParams::Network network = NetworkIdFromCommandLine();
